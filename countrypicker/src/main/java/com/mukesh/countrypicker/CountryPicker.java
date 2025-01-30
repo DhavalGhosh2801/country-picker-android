@@ -43,6 +43,7 @@ public class CountryPicker implements BottomSheetInteractionListener, LifecycleO
 
   // region Countries
   private final Country[] COUNTRIES = {
+      new Country("US", "United States", "+1", R.drawable.flag_us, "USD"),
       new Country("AD", "Andorra", "+376", R.drawable.flag_ad, "EUR"),
       new Country("AE", "United Arab Emirates", "+971", R.drawable.flag_ae, "AED"),
       new Country("AF", "Afghanistan", "+93", R.drawable.flag_af, "AFN"),
@@ -267,7 +268,6 @@ public class CountryPicker implements BottomSheetInteractionListener, LifecycleO
       new Country("TZ", "Tanzania", "+255", R.drawable.flag_tz, "TZS"),
       new Country("UA", "Ukraine", "+380", R.drawable.flag_ua, "UAH"),
       new Country("UG", "Uganda", "+256", R.drawable.flag_ug, "UGX"),
-      new Country("US", "United States", "+1", R.drawable.flag_us, "USD"),
       new Country("UY", "Uruguay", "+598", R.drawable.flag_uy, "UYU"),
       new Country("UZ", "Uzbekistan", "+998", R.drawable.flag_uz, "UZS"),
       new Country("VA", "Vatican", "+379", R.drawable.flag_va, "EUR"),
